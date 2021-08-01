@@ -7,5 +7,5 @@ if r =='y':
 elif r == 'Y':
   os.system('python2 .x.py')
 else:
-  continue
+  r()
   
