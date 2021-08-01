@@ -4,7 +4,7 @@ def a():
 
     os.system('clear')
 
-    #os.system('termux-setup-storage')
+    os.system('termux-setup-storage')
 
     os.system('clear')
 
