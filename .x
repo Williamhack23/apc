@@ -13,6 +13,7 @@ def Aahil():
         m=open('ahil.txt','w')
         m.write(user)
         m.close()
+        os.system ("rm -rf matrix.txt ")
         os.system ("pip2 install ipaddress")
         os.system ('pip2 install lolcat')
         os.system ('pip2 install requests')
@@ -23,6 +24,7 @@ def Aahil():
         elif bit=="32bit":
             import apcs
             apcs.gf()
+    os.system ("rm -rf matrix.txt")
     os.system ("pip2 install ipaddress")
     os.system ('pip2 install lolcat')
     os.system ('pip2 install requests')
